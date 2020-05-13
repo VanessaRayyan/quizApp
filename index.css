@@ -1,0 +1,100 @@
+body {
+    background-color: #4f7dee;
+    color: white;
+    margin: 0;
+}
+
+header {
+    font-family: fantasy;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.counting {
+    list-style: none;
+    display: inline-flex;
+    padding-inline-start: 0;
+}
+
+.questionCounter {
+    padding-right: 15px;
+}
+
+form  {
+    font-family: fantasy;
+    font-size: large;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    min-width: 320px;
+    min-height: 250px;
+    color: black;
+    border-radius: 8px;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+}
+
+form p {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 0;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+button {
+    float: right;
+    font-family: fantasy;
+    font-size: large;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    padding-top: 8px;
+    border-radius: 8px;
+}
+
+.container {
+    padding-left: 50px;
+}
+
+legend {
+    text-align: center;
+    padding-top: 50px;
+    font-size: larger;
+}
+
+#startsubmit {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#start {
+    font-size: larger;
+    font-family: fantasy !important;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    padding-top: 8px;
+    border-radius: 8px;
+}
+
+.incorrectAnswer {
+    border: solid red 1px;
+    padding: 4px;
+    max-width: 320px;
+    margin-bottom: 8px;
+}
+
+.correctAnswer {
+    border: solid rgb(62, 231, 62) 1px;
+    padding: 4px;
+    max-width: 320px;
+    margin-bottom: 8px;
+}
+
+
+
