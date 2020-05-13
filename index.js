@@ -95,6 +95,7 @@ function answerCheck() {
 function endScreenRender(){
     $('#presentSurface').html($(`<p>Your score is ${score}/${questions.length}<br> Great job!<br><br>
     <input id="start" type="submit" value="Restart quiz"></p>`));
+    questionScoreUpdate();
 }
 
 function eventHandler() {

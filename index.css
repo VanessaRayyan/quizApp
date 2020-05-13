@@ -4,12 +4,13 @@ body {
     margin: 0;
 }
 
-header {
+header, h1 {
     font-family: fantasy;
     font-size: xx-large;
     text-align: center;
     margin-top: 8%;
 }
+
 
 .counting {
     list-style: none;
